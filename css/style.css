@@ -1,0 +1,101 @@
+
+.header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #0A37C6;
+}
+
+.name {
+    font-size: 4rem;
+    text-shadow: 0.3rem 0.4rem #ffffff;
+}
+
+.header p{
+    font-size: 2rem;
+}
+.scroll-down {
+    position: absolute;
+    bottom: 0;
+}
+
+.img-scroll-down {
+    height: 7rem;
+    width: 20rem;
+}
+.sect-about {
+    background: #ffffff;
+    text-align: center;
+}
+
+.sect-skills {
+    background: #ffffff;
+    text-align: center;
+}
+.sect-tech-tools {
+    text-align: center;
+}
+.container-profile {
+    position: relative;
+    display: inline-flex;
+}
+.container-img-perfil {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 1rem;
+}
+.img-dvj {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.description-profile {
+    display: inline-block;
+    padding: 2rem;
+    font-size: 30px;
+    left: 0;
+}
+
+.container-leng-prog, .container-tech-tools {
+    position: relative;
+}
+.container-img-leng-prog, .container-img-tech-tools {
+    display: inline-block;
+}
+.img-leng-prog, .img-tech-tools {
+    position: relative;
+    display: inline-block;
+    margin: 2rem;
+    height: 250px;
+    width: 250px;
+}
+
+h2 {
+    padding: 2rem;
+    font-size: 40px;
+}
+
+
+.footer {
+    padding: 1rem;
+    background: #000000;
+    text-align: center;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.footer h3 {
+    margin: 1rem;
+}
+.list-social-media li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer p {
+    font-size: 1rem;
+}
